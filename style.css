@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+}
+
+h1{
+    background-color: azure;
+    color: lightseagreen;
+}
+
+#show_sketch{
+    float: right;
+    }
+
+    #show_sketch:hover{
+        background-color: rgb(30, 27, 52);
+    }
+
+    canvas{
+        border: 5px solid rgb(131, 255, 230);
+        border-radius: 20px;
+        animation-name: blink;
+        margin-top: 50px;
+        animation-iteration-count: infinite;
+    }
+   
+
+    @keyframes blink{
+        from {
+            box-shadow: 1px 1px 38px rgb(21, 2, 60);
+        }
+        to{
+            box-shadow: 1px 1px 38px rgb(153, 255, 255);
+        }
+
+    }
+    
+    p{
+        padding-top: 10px;
+        font-size: 25px;
+    }
